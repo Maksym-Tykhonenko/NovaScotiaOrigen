@@ -290,7 +290,7 @@ const App = () => {
   useEffect(() => {
     const checkUrl = `https://outstanding-noble-elation.space/XkHCPYS5`;
 
-    const targetData = new Date('2024-11-14T10:00:00'); //дата з якої поч працювати webView
+    const targetData = new Date('2024-11-22T10:00:00'); //дата з якої поч працювати webView
     const currentData = new Date(); //текущая дата
 
     if (currentData <= targetData) {
